@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "97a0be44f6d5351e166a90d91c789c8100486c7cc30d922ef7f7e3541838acae"
+            "sha256": "1c5e9daf6c09f8180181767c962d3ecfd214ef93c7264332551bd3c6255ea618"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -22,6 +22,14 @@
                 "sha256:ef6aaac3ca6cd92904cdd0d83f629a15f18053ec84e6432106f7a4d04ae4f5fb"
             ],
             "version": "==21.2.0"
+        },
+        "hypothesis": {
+            "hashes": [
+                "sha256:cb80e06ca44992b08d2889734b740e67c8b41337315bbd6dba2ef43ca816cfe3",
+                "sha256:f86ded26e49c810f8b34f39112d819a06af4bae94e08a71f07285f0e376f6471"
+            ],
+            "index": "pypi",
+            "version": "==6.14.8"
         },
         "iniconfig": {
             "hashes": [
@@ -65,6 +73,13 @@
             ],
             "index": "pypi",
             "version": "==6.2.4"
+        },
+        "sortedcontainers": {
+            "hashes": [
+                "sha256:25caa5a06cc30b6b83d11423433f65d1f9d76c4c6a0c90e3379eaa43b9bfdb88",
+                "sha256:a163dcaede0f1c021485e957a39245190e74249897e2ae4b2aa38595db237ee0"
+            ],
+            "version": "==2.4.0"
         },
         "toml": {
             "hashes": [
