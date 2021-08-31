@@ -1,7 +1,12 @@
 def display_sorted_sports(fave_sport):
     sports_list = ["Volleyball", "Gymnastics", "Badminton", "Handball"]
     sports_list.append(fave_sport)
-    print(sorted(sports_list))
+    if fave_sport == fave_sport.capitalize():
+        ordered_sports_list = sorted(sports_list)
+        print(ordered_sports_list)
+        return ordered_sports_list
+    else:
+        raise TypeError("Input was capitalized.")
 
 
 def user_input():

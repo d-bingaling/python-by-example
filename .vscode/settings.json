@@ -1,0 +1,8 @@
+{
+    "python.testing.pytestArgs": [
+        "tuples_lists_dicts"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true
+}
